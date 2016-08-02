@@ -4,7 +4,7 @@ This tutorial will go over how to setup Macintosh OSX (10.11.16) for developing 
 
 GeoDjango requires a geo-spatial SQL database. There are several excellent options to choose from, such as: MySQL, SQLite, Oracle, and PostgreSQL.
 
-PostgreSQL server with PostGIS was chosen `because it is the most mature and feature-rich open source spatial database.` [1](https://docs.djangoproject.com/en/dev/ref/contrib/gis/install/#spatial-database) The SpatialLite library for SQLite did seem intriguing as a light-weight, embedded server. There are inconsistencies between the way SQL is structured between PostGIS and SpatialLite, so it does bring up the question on how well the Django ORM abstracts these inconsistencies from the developer... Regardless, PostgreSQL is what will be used in the majority of production environments.
+PostgreSQL server with PostGIS was chosen [`because it is the most mature and feature-rich open source spatial database.`](https://docs.djangoproject.com/en/dev/ref/contrib/gis/install/#spatial-database) The SpatialLite library for SQLite did seem intriguing as a light-weight, embedded server. There are inconsistencies between the way SQL is structured between PostGIS and SpatialLite, so it does bring up the question on how well the Django ORM abstracts these inconsistencies from the developer... Regardless, PostgreSQL is what will be used in the majority of production environments.
 
 ## Postgres Installation
 The recommended way to install [PostgreSQL](https://www.postgresql.org) and [PostGIS](http://postgis.net) on OSX is to use the bundled [Postgres.app](http://postgresapp.com).
