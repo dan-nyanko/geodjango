@@ -1,4 +1,4 @@
-# GeoDjango Tutorial (using OSX, PostgreSQL.app bundled with PostGIS, and bootstrapped for development on github)
+# GeoDjango Tutorial
 
 This tutorial will go over how to setup Macintosh OSX (10.11.16) for developing a  [GeoDjango](https://docs.djangoproject.com/en/dev/ref/contrib/gis/tutorial/) web application.
 
